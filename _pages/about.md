@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a third-year undergraduate student in the Department of Electronic Engineering at Tsinghua University.
+I am a third-year undergraduate student in the Department of Electronic Engineering at Tsinghua University.My research interests focus on but are not limited to AI, NLP.
 
 <!-- # 🔥 News
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
