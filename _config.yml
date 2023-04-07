@@ -9,7 +9,7 @@
 title                    : "Ziyang Zhang"
 description              : "third-year undergraduate student in the Department of Electronic Engineering at Tsinghua University. "
 repository               : "windowso/windowso.github.io"
-google_scholar_stats_use_cdn : false
+google_scholar_stats_use_cdn : true
 
 # google analytics
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
@@ -21,7 +21,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Ziyang Zhang(张子扬)"
+  name             : "Ziyang Zhang<br>(张子扬)"
   avatar           : "images/ziyangzhang.jpg"
   bio              : "Tsinghua University"
   location         : "Beijing, China"
