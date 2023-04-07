@@ -1,3 +1,3 @@
 
 # 📖 Educations
-- *2020.09 - 2023 (now)*, Undergradute, Department of Electronic Engineering at Tsinghua University
+- *2020.09 - 2023 (now)*, Undergraduate, Department of Electronic Engineering at Tsinghua University
