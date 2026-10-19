@@ -1,8 +1,0 @@
-# Order of the links in the site header.
-
-main:
-  - title: "Publications"
-    url: /publications/
-
-  - title: "CV"
-    url: /cv/
