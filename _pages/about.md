@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. student in the Department of Electronic Engineering at [Tsinghua University](https://www.tsinghua.edu.cn/en/), advised by Assoc. Prof. Chao Zhang. I received my B.Eng. from the same department in 2024. I am currently a research intern at Pujiang National Laboratory, where I work on the time-series modality of the Intern-S scientific foundation models.
+I am a Ph.D. student in the Department of Electronic Engineering at [Tsinghua University](https://www.tsinghua.edu.cn/en/), advised by Assoc. Prof. [Chao Zhang](https://mi.eng.cam.ac.uk/~cz277/) ([Google Scholar](https://scholar.google.com/citations?user=Imkhv-YAAAAJ)). I received my B.Eng. from the same department in 2024.
 
 My research builds multimodal foundation models along three lines:
 
@@ -43,7 +43,7 @@ Selected Publications
 
 Research Experience
 ======
-- **Pujiang National Laboratory**, Research Intern, Nov. 2024 – Present<br/>
+- **Pujiang National Laboratory**, Research Intern, Nov. 2024 – Oct. 2026<br/>
   Time-series foundation models. Responsible for the overall architecture and training of the time-series modality of Intern-S1 and Intern-S2-Preview, and for the architecture exploration of Intern-S2's time-series forecasting capability. The TimeOmni series, MMTA and Time-JEPA were done here.
 - **Apple, Siri China R&D**, Research Intern, Jan. 2024 – Oct. 2024<br/>
   Speech generation; worked on BELLE, a Bayesian continuous-valued TTS model.

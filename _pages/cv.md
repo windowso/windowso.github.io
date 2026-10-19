@@ -13,12 +13,12 @@ redirect_from:
 
 Education
 ======
-* Ph.D., Electronic Engineering, Tsinghua University, Aug. 2024 – Present (Advisor: Assoc. Prof. Chao Zhang)
+* Ph.D., Electronic Engineering, Tsinghua University, Aug. 2024 – Present (Advisor: Assoc. Prof. [Chao Zhang](https://mi.eng.cam.ac.uk/~cz277/))
 * B.Eng., Electronic Engineering, Tsinghua University, Sept. 2020 – July 2024
 
 Research Experience
 ======
-* **Pujiang National Laboratory**, Research Intern, Nov. 2024 – Present
+* **Pujiang National Laboratory**, Research Intern, Nov. 2024 – Oct. 2026
   * Overall architecture and training of the time-series modality of Intern-S1 and Intern-S2-Preview; architecture exploration for Intern-S2's time-series forecasting.
   * TimeOmni (SciTS, ICLR 2026), TimeOmni-v (MMTA, NeurIPS 2026), TimeOmni-o1, Time-JEPA.
 * **Apple, Siri China R&D**, Research Intern, Jan. 2024 – Oct. 2024
