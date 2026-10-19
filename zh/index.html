@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>张子扬 (Ziyang Zhang)</title>
+<meta name="description" content="张子扬，清华大学电子工程系博士生，研究时序大模型与世界模型、语音生成和大模型对齐。">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Serif:wght@500;600&display=swap">
+<link rel="stylesheet" href="../style.css">
+<link rel="alternate" hreflang="en" href="https://windowso.github.io/">
+</head>
+<body>
+<div class="page">
+
+  <a class="lang" href="../" lang="en" hreflang="en">English</a>
+  <header class="hero">
+    <img class="portrait" src="../images/profile.jpg" alt="张子扬的照片" width="600" height="600">
+    <div class="who">
+      <h1>张子扬 <span class="cn" lang="en">Ziyang Zhang</span></h1>
+      <p class="role">清华大学电子工程系博士生</p>
+      <ul class="links" aria-label="联系方式与主页">
+        <li><a href="mailto:ziyang-z24@mails.tsinghua.edu.cn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18v12H3z" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="m3 7 9 6 9-6" fill="none" stroke="currentColor" stroke-width="1.7"/></svg>邮箱</a></li>
+        <li><a href="https://scholar.google.com/citations?user=F4b2SW4AAAAJ"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 2 9l10 6 10-6z" fill="currentColor"/><path d="M6 12v4c2 2.5 10 2.5 12 0v-4" fill="none" stroke="currentColor" stroke-width="1.7"/></svg>Google Scholar</a></li>
+        <li><a href="https://github.com/windowso"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-3.2 19.5c.5.1.7-.2.7-.5v-1.7c-2.8.6-3.4-1.3-3.4-1.3-.4-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.5 2.4 1.1 2.9.8.1-.6.4-1.1.6-1.3-2.2-.3-4.6-1.1-4.6-5a3.9 3.9 0 0 1 1-2.7 3.6 3.6 0 0 1 .1-2.7s.8-.3 2.8 1a9.6 9.6 0 0 1 5 0c1.9-1.3 2.8-1 2.8-1 .5 1.4.2 2.4.1 2.7a3.9 3.9 0 0 1 1 2.7c0 3.9-2.4 4.7-4.6 5 .4.3.7.9.7 1.9V21c0 .3.2.6.7.5A10 10 0 0 0 12 2z"/></svg>GitHub</a></li>
+        <li><a href="../files/Ziyang_Zhang_CV_zh.pdf"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 2.8h8l4 4v14.4H6z" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M9 12h6M9 15.5h6" stroke="currentColor" stroke-width="1.7"/></svg>简历（PDF）</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <figure class="signal" aria-label="一条贯穿三个研究方向的信号曲线：语音、时序、对齐">
+    <svg id="trace" viewBox="0 0 1200 120" preserveAspectRatio="none" aria-hidden="true">
+      <defs>
+        <linearGradient id="seg" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1200" y2="0">
+          <stop offset="0" style="stop-color:var(--sp)"/><stop offset="0.28" style="stop-color:var(--sp)"/>
+          <stop offset="0.34" style="stop-color:var(--ts)"/><stop offset="0.66" style="stop-color:var(--ts)"/>
+          <stop offset="0.74" style="stop-color:var(--al)"/><stop offset="1" style="stop-color:var(--al)"/>
+        </linearGradient>
+      </defs>
+      <path class="band" d=""></path>
+      <path class="line" d=""></path>
+    </svg>
+    <figcaption>
+      <span>语音生成</span>
+      <span>时序大模型与世界模型</span>
+      <span>大模型对齐</span>
+    </figcaption>
+  </figure>
+
+  <main>
+    <section id="about" class="sec">
+      <h2>关于我</h2>
+      <div class="body prose">
+        <p>我是清华大学电子工程系博士生，导师是<a href="https://mi.eng.cam.ac.uk/~cz277/">张超副教授</a>（<a href="https://scholar.google.com/citations?user=Imkhv-YAAAAJ">Google Scholar</a>）。2024 年在同系获得工学学士学位。</p>
+        <p>我的研究是多模态基础模型。近期的工作主要是让大模型结合文本和视觉去理解、推理和预测时序数据，并用物理时序来监督视频世界模型。此外，我也做语音生成和大模型的人类偏好对齐。</p>
+      </div>
+    </section>
+
+    <section id="research" class="sec">
+      <h2>研究方向</h2>
+      <div class="body themes">
+        <div class="theme t-ts">
+          <h3>时序大模型与世界模型</h3>
+          <p>TimeOmni：理解与生成一体的时序大模型；TimeOmni-v 与 MMTA：时序、文本、视觉三模态模型和基准；TimeOmni-o1：先用文本推理、再由时序基础模型完成预测；书生 Intern-S1 / Intern-S2 的时序模态；Time-JEPA：用物理时序监督视频世界模型。</p>
+        </div>
+        <div class="theme t-sp">
+          <h3>语音生成与语音大模型</h3>
+          <p>BELLE：用贝叶斯证据学习建模语音“一对多”不确定性的连续值 TTS；TVPara：面向语音大模型副语言理解的数据集。</p>
+        </div>
+        <div class="theme t-al">
+          <h3>大模型对齐</h3>
+          <p>Bayesian WeakS-to-Strong：把弱到强泛化扩展到多个弱监督模型的集成，并结合偏好学习推广到生成任务。</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="publications" class="sec">
+      <h2>论文</h2>
+      <div class="body">
+        <div class="filters" role="group" aria-label="按方向筛选论文">
+          <button type="button" data-f="all" aria-pressed="true">全部</button>
+          <button type="button" data-f="ts" aria-pressed="false">时序</button>
+          <button type="button" data-f="sp" aria-pressed="false">语音</button>
+          <button type="button" data-f="al" aria-pressed="false">对齐</button>
+        </div>
+        <p class="note">* 表示共同一作</p>
+        <ol class="pubs" id="pubs"></ol>
+      </div>
+    </section>
+
+    <section id="experience" class="sec">
+      <h2>实习经历</h2>
+      <div class="body">
+        <ol class="timeline">
+          <li>
+            <span class="when">2024.11 – 2026.10</span>
+            <div>
+              <h3>浦江国家实验室</h3>
+              <p class="sub">研究实习生，时序大模型方向</p>
+              <p>负责书生 Intern-S1、Intern-S2-Preview 时序模态的整体架构与模型训练，并独立负责 Intern-S2 新增时序预测能力的架构探索。TimeOmni 系列、MMTA 和 Time-JEPA 都在这里完成。</p>
+            </div>
+          </li>
+          <li>
+            <span class="when">2024.01 – 2024.10</span>
+            <div>
+              <h3>Apple，Siri 中国研发团队</h3>
+              <p class="sub">研究实习生，语音生成方向</p>
+              <p>研究贝叶斯连续值 TTS 模型 BELLE。</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="education" class="sec">
+      <h2>教育背景</h2>
+      <div class="body">
+        <ol class="timeline">
+          <li>
+            <span class="when">2024 – 至今</span>
+            <div><h3>博士，电子工程系</h3><p class="sub">清华大学</p></div>
+          </li>
+          <li>
+            <span class="when">2020 – 2024</span>
+            <div><h3>工学学士，电子工程系</h3><p class="sub">清华大学。清华大学优良毕业生（2024）；学业优秀奖学金（2020–2023，共三次）</p></div>
+          </li>
+        </ol>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>最后更新：2026 年 10 月</p>
+  </footer>
+</div>
+
+<script src="../site.js"></script>
+</body>
+</html>
