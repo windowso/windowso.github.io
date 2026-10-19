@@ -7,7 +7,7 @@ const PUBS = [
     au: ME + ', Shenyi Li, Wen Wu, Chao Zhang', venue: 'Under review',
     links: [['Paper','https://openreview.net/pdf?id=BjAsH3A6Y5'],['Project','https://windowso.github.io/TimeOmni-o1-web/'],['Code','https://github.com/OpenTSLab/TimeOmni-o1']] },
   { y: 2026, t: 'ts', title: 'Time-JEPA: Grounding Video World Models with Physical Time Series',
-    au: ME + (document.documentElement.lang.startsWith('zh') ? ' 等（共同一作）' : ' et al. (co-first author)'), venue: 'Under review',
+    au: 'Shenyi Li*, ' + ME + '*, Wen Wu, Ming Liu, Chao Zhang', venue: 'Under review',
     links: [['Paper','https://openreview.net/pdf?id=VuBJN8ebTP']] },
   { y: 2026, t: 'ts', title: 'SciTS: Scientific Time Series Understanding and Generation with LLMs',
     au: 'Wen Wu, ' + ME + ', Liwei Liu, Xuenan Xu, et al., Chao Zhang', venue: 'ICLR 2026', accepted: true,
