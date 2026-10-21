@@ -1,22 +1,22 @@
 const ME = '<strong>Ziyang Zhang</strong>';
 const PUBS = [
   { y: 2026, t: 'ts', title: 'MMTA: Benchmarking Multimodal Temporal Analysis with Time Series, Text, and Vision',
-    au: ME + '*, Shenyi Li*, Yilin Wang, Ziyun Cui, Bowen Zhou, Wen Wu, Chao Zhang', venue: 'NeurIPS 2026', accepted: true,
+    au: ME + '*, Shenyi Li*, Yilin Wang, Ziyun Cui, Bowen Zhou, Wen Wu, Chao Zhang', venue: 'NeurIPS 2026 (Evaluations &amp; Datasets Track)', accepted: true,
     links: [['Paper','https://arxiv.org/abs/2610.17856'],['Project','https://windowso.github.io/MMTA/'],['Code','https://github.com/OpenTSLab/TimeOmni-v'],['Data','https://huggingface.co/datasets/OpenTSLab/MMTA-v1.0']] },
   { y: 2026, t: 'ts', title: 'TimeOmni-o1: Bidirectionally Coupling Time Series Foundation Models and LLMs for Multimodal Reasoning and Forecasting',
-    au: ME + ', Shenyi Li, Wen Wu, Chao Zhang', venue: 'Under review',
+    au: ME + ', Shenyi Li, Wen Wu, Chao Zhang', venue: 'Preprint',
     links: [['Paper','https://openreview.net/pdf?id=BjAsH3A6Y5'],['Project','https://windowso.github.io/TimeOmni-o1-web/'],['Code','https://github.com/OpenTSLab/TimeOmni-o1']] },
   { y: 2026, t: 'ts', title: 'Time-JEPA: Grounding Video World Models with Physical Time Series',
-    au: 'Shenyi Li*, ' + ME + '*, Wen Wu, Ming Liu, Chao Zhang', venue: 'Under review',
+    au: 'Shenyi Li*, ' + ME + '*, Wen Wu, Ming Liu, Chao Zhang', venue: 'Preprint',
     links: [['Paper','https://openreview.net/pdf?id=VuBJN8ebTP']] },
   { y: 2026, t: 'ts', title: 'SciTS: Scientific Time Series Understanding and Generation with LLMs',
     au: 'Wen Wu, ' + ME + ', Liwei Liu, Xuenan Xu, et al., Chao Zhang', venue: 'ICLR 2026', accepted: true,
-    links: [['Paper','https://proceedings.iclr.cc/paper_files/paper/2026/file/ba1d33849b963efc6b5d3082ad68f480-Paper-Conference.pdf']] },
+    links: [['Paper','https://proceedings.iclr.cc/paper_files/paper/2026/file/ba1d33849b963efc6b5d3082ad68f480-Paper-Conference.pdf'],['Code','https://github.com/OpenTSLab/TimeOmni']] },
   { y: 2026, t: 'sp', title: 'TVPara: Paralinguistic Captioning of Expressive TV-Series Speech in Complex Acoustic Environments',
     au: ME + ', Wenyi Yu, Wen Wu, Xuenan Xu, Chao Zhang', venue: 'arXiv 2026',
     links: [['Paper','https://arxiv.org/abs/2610.19678'],['Project','https://windowso.github.io/TVPara/']] },
   { y: 2026, t: 'ts', title: 'Intern-S2-Preview: Scientific Agentic Foundation Model',
-    au: (document.documentElement.lang.startsWith('zh') ? 'Intern-S2 团队（含 ' + ME + '）' : 'Intern-S2 Team, including ' + ME), venue: 'Technical report',
+    au: (document.documentElement.lang.startsWith('zh') ? 'Intern-S2-Preview 团队（含 ' + ME + '）' : 'Intern-S2-Preview Team, including ' + ME), venue: 'Technical report',
     links: [['Paper','https://arxiv.org/abs/2608.13505']] },
   { y: 2025, t: 'sp', title: 'Bayesian Speech Synthesizers Can Learn from Multiple Teachers',
     au: ME + ', Yifan Gao, Xuenan Xu, Baoxiang Li, Wen Wu, Chao Zhang', venue: 'arXiv 2025',
@@ -29,11 +29,11 @@ const PUBS = [
     links: [['Paper','https://proceedings.iclr.cc/paper_files/paper/2025/file/495e55f361708bedbab5d81f92048dcd-Paper-Conference.pdf']] },
   { y: 2024, t: 'ts', title: 'SWIM: Short-Window CNN Integrated with Mamba for EEG-Based Auditory Spatial Attention Decoding',
     au: ME + ', Andrew Thwaites, Alexandra Woolgar, Brian Moore, Chao Zhang', venue: 'IEEE SLT 2024', accepted: true,
-    links: [['Code','https://github.com/windowso/SWIM-ASAD']] },
+    links: [['Paper','https://arxiv.org/abs/2409.19884'],['Code','https://github.com/windowso/SWIM-ASAD']] },
 ];
 const LANG = document.documentElement.lang.startsWith('zh') ? 'zh' : 'en';
 const AREA = LANG === 'zh' ? { ts: '时序', sp: '语音', al: '对齐' } : { ts: 'Time series', sp: 'Speech', al: 'Alignment' };
-const VZH = { 'Under review': '在审', 'arXiv 2026': 'arXiv 2026', 'arXiv 2025': 'arXiv 2025', 'Technical report': '技术报告' };
+const VZH = { 'Preprint': '预印本', 'NeurIPS 2026 (Evaluations &amp; Datasets Track)': 'NeurIPS 2026（Evaluations &amp; Datasets Track）', 'arXiv 2026': 'arXiv 2026', 'arXiv 2025': 'arXiv 2025', 'Technical report': '技术报告' };
 const LZH = { Paper: '论文', Project: '项目页', Code: '代码', Data: '数据', Demo: '音频样例' };
 const tv = v => LANG === 'zh' ? (VZH[v] || v) : v;
 const tl = k => LANG === 'zh' ? (LZH[k] || k) : k;
